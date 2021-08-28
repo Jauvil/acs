@@ -18,7 +18,7 @@
           </div>
           <hr class="my-4">
           <div class="form-floating mb-3">
-            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <input v-model="lead.email" type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
             <label for="floatingInput">Email address</label>
           </div>
           <button class="w-100 btn btn-lg btn-primary" type="submit">Find Solutions</button>
@@ -36,6 +36,14 @@ export default {
         lead_type: 'hot',
         email: ''
       }
+    }
+  },
+  methods: {
+    submitFreeConsultation () {
+
+    },
+    validateEmail () {
+
     }
   }
 }

@@ -27,3 +27,16 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  data () {
+    return {
+      lead: {
+        lead_type: 'hot',
+        email: ''
+      }
+    }
+  }
+}
+</script>

@@ -6,9 +6,9 @@
       <!-- Section: Social media -->
       <section class="mb-4">
         <!-- Facebook -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-facebook-f"></i
-        ></a>
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+          <i class="fa fa-facebook"></i>
+        </a>
 
         <!-- Twitter -->
         <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
